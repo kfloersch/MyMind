@@ -50,8 +50,7 @@ struct AppView: View {
               }
               .tag(2)
               
-              Text("Fourth View")
-                  .font(.title)
+              Profile()
                   .tabItem {
                       VStack {
                           Image("second")

@@ -14,6 +14,9 @@
 		1A1A3FAE246B233C00978432 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A3FAD246B233C00978432 /* Preview Assets.xcassets */; };
 		1A1A3FB1246B233C00978432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A3FAF246B233C00978432 /* LaunchScreen.storyboard */; };
 		1A1A3FBB246B3ECD00978432 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A3FBA246B3ECD00978432 /* AppView.swift */; };
+		1A6ECA022486C8B90095E266 /* CalendarWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6ECA012486C8B90095E266 /* CalendarWindow.swift */; };
+		1A6ECA042486D2C60095E266 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6ECA032486D2C60095E266 /* BarChartView.swift */; };
+		1A6ECA062486D5D60095E266 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6ECA052486D5D60095E266 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		1A1A3FB0246B233C00978432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A1A3FB2246B233C00978432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A1A3FBA246B3ECD00978432 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		1A6ECA012486C8B90095E266 /* CalendarWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWindow.swift; sourceTree = "<group>"; };
+		1A6ECA032486D2C60095E266 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		1A6ECA052486D5D60095E266 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				1A1A3FA4246B233B00978432 /* AppDelegate.swift */,
 				1A1A3FA6246B233B00978432 /* SceneDelegate.swift */,
 				1A1A3FA8246B233B00978432 /* ContentView.swift */,
+				1A6ECA052486D5D60095E266 /* Profile.swift */,
+				1A6ECA032486D2C60095E266 /* BarChartView.swift */,
+				1A6ECA012486C8B90095E266 /* CalendarWindow.swift */,
 				1A1A3FBA246B3ECD00978432 /* AppView.swift */,
 				1A1A3FAA246B233C00978432 /* Assets.xcassets */,
 				1A1A3FAF246B233C00978432 /* LaunchScreen.storyboard */,
@@ -149,7 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A6ECA022486C8B90095E266 /* CalendarWindow.swift in Sources */,
 				1A1A3FBB246B3ECD00978432 /* AppView.swift in Sources */,
+				1A6ECA042486D2C60095E266 /* BarChartView.swift in Sources */,
+				1A6ECA062486D5D60095E266 /* Profile.swift in Sources */,
 				1A1A3FA5246B233B00978432 /* AppDelegate.swift in Sources */,
 				1A1A3FA7246B233B00978432 /* SceneDelegate.swift in Sources */,
 				1A1A3FA9246B233B00978432 /* ContentView.swift in Sources */,
