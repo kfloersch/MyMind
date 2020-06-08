@@ -23,22 +23,52 @@ struct Profile: View {
                     Rectangle().frame(height: 105.0).foregroundColor(.white).alignmentGuide(.top) { dimension in
                         dimension[.top]
                     }
-                    HStack(alignment: .center){
+                    VStack(alignment: .leading) {
+                        HStack(alignment: .center){
+                            Spacer()
+                            Text(name).font(.title).foregroundColor(.black).padding(.leading, -75.0)
+                        
                         Spacer()
-                        Text(name).foregroundColor(.black)
-                    
-                    Spacer()
-                    Button(action: {
-                        //todo
-                    }
-                    ){
-                        Image(systemName: "gear").resizable().padding(.horizontal, 0.0).frame(width: 50, height: 50, alignment: .trailing)
+                        Button(action: {
+                            //todo
+                        }
+                        ){
+                            Image(systemName: "gear").resizable().padding(.horizontal, 0.0).frame(width: 35, height: 35, alignment: .trailing)
+                            
+                            
+                        }
+                        .padding(.trailing)
+                        .frame(width: 100.0)
                         
+                        }
+                        //end Hstack
                         
-                    }
-                    .padding(.trailing)
-                    .frame(width: 100.0)
-                    
+                        HStack{
+                            Spacer()
+                            Button(action: {
+                                //todo
+                            }
+                            ){
+                                Image(systemName: "chevron.left").resizable().padding(.horizontal, 0.0).frame(width: 20, height: 20, alignment: .trailing)
+                                
+                                
+                            }
+                            .frame(width: 20)
+                            Text("Month")
+                            Button(action: {
+                                //todo
+                            }
+                            ){
+                                Image(systemName: "chevron.right").resizable().padding(.horizontal, 0.0).frame(width: 20, height: 20, alignment: .trailing)
+                                
+                                
+                            }
+                            .frame(width: 20)
+                            Spacer()
+                            Spacer()
+                            Spacer()
+                            
+                        }
                     }
                 }
                 CalendarWindow().padding(.bottom, 35.0)

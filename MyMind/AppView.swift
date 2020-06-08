@@ -25,7 +25,7 @@ struct AppView: View {
               ContentView()
                   .tabItem {
                       VStack {
-                          Image("first")
+                        Image(systemName: "rectangle.and.paperclip")
                           Text("Entries").foregroundColor(Color.white)
                       }
               }
@@ -35,7 +35,7 @@ struct AppView: View {
                   
                   .tabItem {
                       VStack {
-                          Image("second")
+                          Image(systemName: "calendar")
                           Text("Calendar").foregroundColor(Color.white)
                       }
               }
@@ -44,7 +44,7 @@ struct AppView: View {
                   .font(.title)
                   .tabItem {
                       VStack {
-                          Image("second")
+                          Image(systemName: "light.max")
                           Text("Tools").foregroundColor(Color.white)
                       }
               }
@@ -53,7 +53,7 @@ struct AppView: View {
               Profile()
                   .tabItem {
                       VStack {
-                          Image("second")
+                        Image(systemName: "person")
                           Text("Profile").foregroundColor(Color.white)
                       }
               }
