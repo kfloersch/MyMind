@@ -71,7 +71,8 @@ struct Profile: View {
                         }
                     }
                 }
-                CalendarWindow().padding(.bottom, 35.0)
+                
+                CalendarWindow().padding(.vertical, 35.0)
                     BarChartView()
             }
             

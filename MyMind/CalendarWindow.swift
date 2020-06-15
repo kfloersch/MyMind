@@ -14,9 +14,9 @@ struct CalendarWindow: View {
             Text("Monthly Moods")
                 .font(.largeTitle)
                 .foregroundColor(Color.white)
-                .padding().frame(width: 350, height: 200)
+                .padding().frame(width: 350, height: 230)
         }
-        .background(Color.gray)
+        .background(Color.gray).cornerRadius(15.0).shadow(radius: 5)
     }
 }
 

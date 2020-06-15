@@ -22,7 +22,7 @@ struct AppView: View {
           
           TabView(selection: $selection){
           
-              ContentView()
+              Entries()
                   .tabItem {
                       VStack {
                         Image(systemName: "rectangle.and.paperclip")

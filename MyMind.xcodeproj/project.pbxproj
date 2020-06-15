@@ -17,6 +17,8 @@
 		1A6ECA022486C8B90095E266 /* CalendarWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6ECA012486C8B90095E266 /* CalendarWindow.swift */; };
 		1A6ECA042486D2C60095E266 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6ECA032486D2C60095E266 /* BarChartView.swift */; };
 		1A6ECA062486D5D60095E266 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6ECA052486D5D60095E266 /* Profile.swift */; };
+		1ABD1C612497D84E000876B7 /* Entries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD1C602497D84E000876B7 /* Entries.swift */; };
+		1ABD1C632497DD3D000876B7 /* EntriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABD1C622497DD3D000876B7 /* EntriesList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		1A6ECA012486C8B90095E266 /* CalendarWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWindow.swift; sourceTree = "<group>"; };
 		1A6ECA032486D2C60095E266 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 		1A6ECA052486D5D60095E266 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		1ABD1C602497D84E000876B7 /* Entries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entries.swift; sourceTree = "<group>"; };
+		1ABD1C622497DD3D000876B7 /* EntriesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +68,11 @@
 		1A1A3FA3246B233B00978432 /* MyMind */ = {
 			isa = PBXGroup;
 			children = (
+				1ABD1C5F2497D83B000876B7 /* Tabs */,
 				1A1A3FA4246B233B00978432 /* AppDelegate.swift */,
 				1A1A3FA6246B233B00978432 /* SceneDelegate.swift */,
 				1A1A3FA8246B233B00978432 /* ContentView.swift */,
-				1A6ECA052486D5D60095E266 /* Profile.swift */,
+				1ABD1C622497DD3D000876B7 /* EntriesList.swift */,
 				1A6ECA032486D2C60095E266 /* BarChartView.swift */,
 				1A6ECA012486C8B90095E266 /* CalendarWindow.swift */,
 				1A1A3FBA246B3ECD00978432 /* AppView.swift */,
@@ -85,6 +90,15 @@
 				1A1A3FAD246B233C00978432 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1ABD1C5F2497D83B000876B7 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				1A6ECA052486D5D60095E266 /* Profile.swift */,
+				1ABD1C602497D84E000876B7 /* Entries.swift */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,10 +174,12 @@
 			files = (
 				1A6ECA022486C8B90095E266 /* CalendarWindow.swift in Sources */,
 				1A1A3FBB246B3ECD00978432 /* AppView.swift in Sources */,
+				1ABD1C612497D84E000876B7 /* Entries.swift in Sources */,
 				1A6ECA042486D2C60095E266 /* BarChartView.swift in Sources */,
 				1A6ECA062486D5D60095E266 /* Profile.swift in Sources */,
 				1A1A3FA5246B233B00978432 /* AppDelegate.swift in Sources */,
 				1A1A3FA7246B233B00978432 /* SceneDelegate.swift in Sources */,
+				1ABD1C632497DD3D000876B7 /* EntriesList.swift in Sources */,
 				1A1A3FA9246B233B00978432 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

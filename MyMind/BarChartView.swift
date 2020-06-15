@@ -15,9 +15,11 @@ struct BarChartView: View {
                   Text("Average Daily Moods")
                     .font(.title)
                       .foregroundColor(Color.white)
-                      .frame(width: 350, height: 200)
+                      .frame(width: 350, height: 230)
               }
-              .background(Color.gray)
+          .background(Color.gray)
+          .cornerRadius(15.0).shadow(radius: 5)
+        
     }
 }
 
